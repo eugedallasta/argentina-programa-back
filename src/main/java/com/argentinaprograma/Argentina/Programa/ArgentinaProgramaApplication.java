@@ -22,7 +22,7 @@ public class ArgentinaProgramaApplication {
         @Override
         public void addCorsMappings(CorsRegistry registry) {
             registry.addMapping("/**")
-                    .allowedOrigins("https://portfolio-deploy-b11f2.web.app%22 , "http://localhost:4200")
+                    .allowedOrigins("https://portfolio-deploy-b11f2.web.app" , "http://localhost:4200")
                     .allowedMethods(
                             "GET",
                             "POST",
