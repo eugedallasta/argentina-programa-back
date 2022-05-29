@@ -19,7 +19,7 @@ public class ArgentinaProgramaApplication {
 	public CorsFilter corsFilter() {
 		CorsConfiguration corsConfiguration = new CorsConfiguration();
 		corsConfiguration.setAllowCredentials(true);
-		corsConfiguration.setAllowedOrigins(Arrays.asList("https://portfolio-deploy-b11f2.web.app/portfolio"));
+		corsConfiguration.setAllowedOrigins(Arrays.asList("http://localhost:4200" ,"https://portfolio-deploy-b11f2.web.app/portfolio"));
 		corsConfiguration.setAllowedHeaders(Arrays.asList("Origin", "Access-Control-Allow-Origin", "Content-Type",
 				"Accept", "Authorization", "Origin, Accept", "X-Requested-With",
 				"Access-Control-Request-Method", "Access-Control-Request-Headers"));
